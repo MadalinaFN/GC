@@ -10,7 +10,34 @@ namespace Laborator_1
     {
         static void Main(string[] args)
         {
-            EcuatieSiDistanta();
+            //EcuatieSiDistanta();
+            //Coliniare();
+        }
+
+        private static void Coliniare()
+        {
+            int xa, ya, xb, yb, xc, yc, rez;
+
+            Console.WriteLine("Introduceti xa si ya");
+            xa = int.Parse(Console.ReadLine());
+            ya = int.Parse(Console.ReadLine());
+            Console.WriteLine("Introduceti xb si yb");
+            xb = int.Parse(Console.ReadLine());
+            yb = int.Parse(Console.ReadLine());
+            Console.WriteLine("Introduceti xc si yc");
+            xc = int.Parse(Console.ReadLine());
+            yc = int.Parse(Console.ReadLine());
+
+            rez = xa * yb + xb * yc + ya * xc - xc * yb - yc * xa - xb * ya;
+
+            if (rez == 0)
+            {
+                Console.WriteLine("Sunt coliniare");
+            }
+            else
+            {
+                Console.WriteLine("Nu sunt coliniare");
+            }
         }
 
         private static void EcuatieSiDistanta()
