@@ -13,7 +13,7 @@ namespace Invelitori_Convexe
     public partial class Form1 : Form
     {
         public List<PointF> points = new List<PointF>();
-        static int n = 25;
+        static int n = 20;
 
         public Form1()
         {
