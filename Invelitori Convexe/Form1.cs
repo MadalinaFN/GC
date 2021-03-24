@@ -38,6 +38,22 @@ namespace Invelitori_Convexe
             {
                 e.Graphics.DrawEllipse(new Pen(Color.Black), p.X - 2, p.Y - 2, 2, 2);
             }
+
+            /*e.Graphics.DrawEllipse(new Pen(Color.Black), 0, 300, 2, 2);
+            e.Graphics.DrawEllipse(new Pen(Color.Black), 150, 250, 2, 2);
+            e.Graphics.DrawEllipse(new Pen(Color.Black), 200, 0, 2, 2);
+            e.Graphics.DrawEllipse(new Pen(Color.Black), 500, 100, 2, 2);
+            e.Graphics.DrawEllipse(new Pen(Color.Black), 550, 200, 2, 2);
+            e.Graphics.DrawEllipse(new Pen(Color.Black), 700, 300, 2, 2);
+            e.Graphics.DrawEllipse(new Pen(Color.Black), 500, 400, 2, 2);
+            e.Graphics.DrawEllipse(new Pen(Color.Black), 300, 600, 2, 2);
+
+            e.Graphics.DrawLine(new Pen(Color.Red), 0, 300, 200, 0);
+            e.Graphics.DrawLine(new Pen(Color.Red), 200, 0, 500, 100);
+            e.Graphics.DrawLine(new Pen(Color.Red), 500, 100, 700, 300);
+            e.Graphics.DrawLine(new Pen(Color.Red), 700, 300, 300, 600);
+            e.Graphics.DrawLine(new Pen(Color.Red), 300, 600, 0, 300);*/
+
             AlgSlab.AlgoritmulSlab(points, e);
             //SuperiorInferior.SepararePlanuri(points, e);
         }
