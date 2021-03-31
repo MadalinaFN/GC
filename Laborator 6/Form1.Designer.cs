@@ -32,7 +32,7 @@
             // 
             // Form1
             // 
-            this.ClientSize = new System.Drawing.Size(783, 482);
+            this.ClientSize = new System.Drawing.Size(868, 554);
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load_1);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint_1);

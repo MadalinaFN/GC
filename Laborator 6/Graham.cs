@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Laborator_6
 {
-    class Graham
+    public class Graham
     {
         public static void ScanareGraham(List<PointF> points, PaintEventArgs e)
         {

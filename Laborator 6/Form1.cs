@@ -40,6 +40,24 @@ namespace Laborator_6
             }
             Jarvis.AlgoritmulJarvis(points, e);
             //Graham.ScanareGraham(points, e);
+
+            /*e.Graphics.DrawEllipse(new Pen(Color.Black), 60, 330, 2, 2);
+            e.Graphics.DrawEllipse(new Pen(Color.Black), 60, 270, 2, 2);
+            e.Graphics.DrawEllipse(new Pen(Color.Black), 90, 300, 2, 2);
+            e.Graphics.DrawEllipse(new Pen(Color.Black), 150, 270, 2, 2);
+            e.Graphics.DrawEllipse(new Pen(Color.Black), 150, 210, 2, 2);
+            e.Graphics.DrawEllipse(new Pen(Color.Black), 180, 210, 2, 2);
+            e.Graphics.DrawEllipse(new Pen(Color.Black), 120, 270, 2, 2);
+            e.Graphics.DrawEllipse(new Pen(Color.Black), 90, 180, 2, 2);
+            e.Graphics.DrawEllipse(new Pen(Color.Black), 210, 360, 2, 2);
+            e.Graphics.DrawEllipse(new Pen(Color.Black), 210, 330, 2, 2);
+
+            e.Graphics.DrawLine(new Pen(Color.Blue), 60, 330, 60, 270);
+            e.Graphics.DrawLine(new Pen(Color.Blue), 60, 270, 90, 180);
+            e.Graphics.DrawLine(new Pen(Color.Blue), 90, 180, 180, 210);
+            e.Graphics.DrawLine(new Pen(Color.Blue), 180, 210, 210, 330);
+            e.Graphics.DrawLine(new Pen(Color.Blue), 210, 330, 210, 360);
+            e.Graphics.DrawLine(new Pen(Color.Blue), 210, 360, 60, 330);*/
         }
 
         private void Form1_Load_1(object sender, EventArgs e)
