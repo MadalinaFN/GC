@@ -37,7 +37,7 @@
             // 
             this.Desenare.Location = new System.Drawing.Point(856, 194);
             this.Desenare.Name = "Desenare";
-            this.Desenare.Size = new System.Drawing.Size(89, 23);
+            this.Desenare.Size = new System.Drawing.Size(89, 30);
             this.Desenare.TabIndex = 0;
             this.Desenare.Text = "Desenare";
             this.Desenare.UseVisualStyleBackColor = true;
